@@ -1,0 +1,19 @@
+.loginID {
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgb(17, 148, 230);
+}
+
+p {
+  color: white;
+}
+form {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+p1{color:red;}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <script src="loginCode.js"></script>
+    <link href="loginStyle.css" rel="stylesheet" type="text/css" />
+    <head>
+        <title>LAUNCH LOGIN</title>
+    </head>
+
+    <body>
+        <h1>
+           WELCOME TO THE SUNNYVALE TRAILER PARK SPACE PROGRAM
+           <br>
+           <br>
+           <br>
+           <p1>CREDENTIALS REQUIRED</p1>
+        </h1>
+        <br>
+        <p id="loginStatus" class="loginID">ACCESS PENDING...</p>
+        <br>
+        <form id="credSubmit" onsubmit="return false">
+            Full Name:     <input type="text" id="Login" /> <br>
+            <br>
+            Badge #:      <input type="text" id="badgeNum" /> <br>
+            <br>
+            <input type="submit" onclick="checkCreds();" />
+        </form>
+    </body>
+
+</html>
